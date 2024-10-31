@@ -30,3 +30,5 @@ const posts = [
         tags: ['JS', 'esausto', 'grazieFabio', 'happy']
     },
 ]
+
+module.exports = posts
