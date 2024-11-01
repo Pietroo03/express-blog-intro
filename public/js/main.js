@@ -19,8 +19,8 @@ function create_markup(posts) {
         const {titolo, contenuto, immagine, tags} = post
         console.log(post);
         const markup = `
-        <div class="post col-12 col-md-5 m-3">
-            <div class="immagine">
+        <div class="post col-12 col-md-5 m-3 pt-3">
+            <div class="immagine text-center">
                 <img src="${immagine}" alt="">
             </div>
             <h3 class="title pt-3">
