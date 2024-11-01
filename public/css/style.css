@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+
+    .tags{
+        color: rgb(53, 85, 203);
+    }
+    
+    @media screen and (max-width: 767px) {
+        .immagine{
+            text-align: center;
+        }
+
+        .title{
+            font-size: 30px;
+        }
+
+        div{
+            font-size: 20px;
+        }
+    }
+}
