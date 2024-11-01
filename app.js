@@ -3,7 +3,7 @@ const PostsController = require('./Controllers/Postscontroller.js')
 const app = express()
 const host = 'http://127.0.0.1'
 const port = 3000
-console.log(PostsController);
+app.use(express.static('public'))
 
 
 app.listen(port, () => {
